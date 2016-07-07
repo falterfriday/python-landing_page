@@ -6,11 +6,11 @@ def landing():
 	return render_template('index.html')
 
 @app.route('/ninjas')
-def success():
+def ninja():
 	return render_template('ninjas.html')
 
 @app.route('/dojos/new')
-def success():
+def dojos():
 	return render_template('dojos.html')
 
 app.run(debug=True)
